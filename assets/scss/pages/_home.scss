@@ -1,0 +1,46 @@
+.page-home {
+  text-align: center;
+  .title {
+    font-weight: lighter;
+    font-family: $font-family-base;
+  }
+  p {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    @include media-breakpoint-up(md) {
+      width: 80%;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 60%;
+    }
+  }
+  .terminal {
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: -200px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+
+div.col-12.col-md-9 div.content img {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.content pre {
+    border: 1px dashed rgba(100,100,100,0.2);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+p > img {
+    text-align: "center";
+}

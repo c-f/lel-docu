@@ -1,0 +1,47 @@
+baseURL = "https://editor.l3l.lol/"
+languageCode = "en-us"
+title = "LEL - explode your notes"
+themesDir = "themes"
+theme = "hugo-whisper-theme"
+
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "UserGuide"
+    url = "/user/"
+    weight = 2
+
+[[menu.main]]
+    name = "DevGuide"
+    url = "/dev/"
+    weight = 3
+[params]
+  google_analytics_id="UA-151634041-1"
+  homepage_button_link = 'https://github.com/c-f/lel'
+  homepage_button_text = 'Go to Github'
+  homepage_image = '/banner.png'
+  mainSections = ["user", "dev"]
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "LeL is a visualization layer and helper for relevant IT related documentation and operation"
+    meta_og_title = "LeL - explode your notes"
+    meta_og_type = "website"
+    meta_og_url = "https://editor.l3l.lol"
+    meta_og_image = "https://editor.l3l.lol/LEL-short.png"
+    meta_og_description = "LeL is a visualization layer and helper for relevant IT related documentation and operation"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@invist"
+    meta_twitter_creator = "@invist"
+
+  [params.logo]
+      mobile = "/banner.png"
+      standard  = "/banner.png"
+
+
