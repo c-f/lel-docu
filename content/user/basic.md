@@ -11,6 +11,7 @@ This guide should give you a basic understanding of LeL and its components.
 - Structure layer
 - Action layer
 - Collaborative Sharing
+- Additional information
 
 ![pic](/LEL-short.png)
 
@@ -50,4 +51,8 @@ The good thing is that syncing is really easy, because only the content needs to
 
 For syncing you can choose whatever fits you best. Personally i like seafile quite well, therefore this section quickly helps you to setup seafile instance in an automated way.
 
-See [Details](/user/automation) fore more.
+See [Details](/user/automation) for more.
+
+### Additional Frontend Features
+
+See [Details](/user/additional) for more

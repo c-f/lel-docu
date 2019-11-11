@@ -41,9 +41,13 @@ lel@srv:~/lel/static$ npm install <stuff>
 lel@srv:~/lel/static$ npm run serve
 ```
 
-Then go to [http://127.0.0.1:8080/dev.html](http://127.0.0.1:8080/dev.html) to see the react component.
+The npm server is then served at `https://127.0.0.1:8080`. Afterwards, the following command can be used to start the backendServer with the dev settings enabled:
 
-The go server can be started with `-debug` to enable support to other ports.
+```
+LEL_FRONTEND_URL=https://127.0.0.1:8080/static/lel-dev.js go run main.go -appDir ../../ -docu ~/lel-demo -debug
+```
+
+If the `LEL_FRONTEND_URL` environment variable is present, then this URL is used for the frontend. This also means, that the LeL frontend can easily be replaced if a better candidate
 
 ## Errors & Pitfalls
 

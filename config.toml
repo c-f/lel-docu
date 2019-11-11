@@ -19,6 +19,7 @@ theme = "hugo-whisper-theme"
     name = "DevGuide"
     url = "/dev/"
     weight = 3
+
 [params]
   google_analytics_id="UA-151634041-1"
   homepage_button_link = 'https://github.com/c-f/lel'
