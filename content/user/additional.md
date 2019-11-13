@@ -6,6 +6,18 @@ weight: 6
 summary: Additional Frontend Documentation
 ---
 
+## Change Settings
+
+Certificates can be exchanged. The path can also be specified in the configuration with the `-c` argument.
+
+The hostname API can be changed via the environment variable `LEL_HOSTNAME`. Or via a configuration with the `-c` argument.
+
+![pic](/user/pic_custom-url-api.png)
+
+The frontend-script can be replaced via the environment variable `LEL_FRONTEND_URL`.
+
+![pic](/user/pic_custom-url.png)
+
 ## Stats
 
 When opening LeL several count stats are displayed.
